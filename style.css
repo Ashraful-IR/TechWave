@@ -82,6 +82,9 @@ nav {
 footer {
   /* width: 100%; */
   background: url(./assets/footer-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .f-container {
   display: flex;
@@ -152,13 +155,16 @@ footer {
 .hero-sec {
   /* width: 100%; */
   background: url(./assets/hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .hero-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 40px;
-  padding: 101px 525px;
+  padding: 100px 24px;
 }
 .icon {
   display: flex;
@@ -169,6 +175,7 @@ footer {
   padding: 8px 16px 8px 16px;
   border-radius: 1000px;
   box-shadow: 0px 3px 27px 0px rgba(0, 255, 136, 0.5);
+  animation: pulseGlow 1.6s cubic-bezier(0.4, 0, 0.6, 1) infinite;
   background: rgba(0, 255, 136, 1);
   color: rgba(26, 11, 46, 1);
   font-family: Inter;
@@ -378,6 +385,7 @@ footer {
   text-transform: capitalize;
 }
 .sec-2-grid-1 {
+  margin: auto;
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   grid-template-rows: repeat(4, 80px);

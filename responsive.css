@@ -1,0 +1,64 @@
+@media screen and (max-width: 576px) {
+  nav {
+    width: auto;
+    padding: 16px 20px 16px 20px;
+  }
+  .logo {
+    font-size: 35px;
+    font-weight: 500;
+  }
+  .link {
+    display: none;
+  }
+  .btn {
+    display: none;
+  }
+  .hero-container {
+    padding: 80px 20px;
+    gap: 24px;
+  }
+  .icon {
+    top: 160px;
+    right: 65px;
+  }
+  .hero-heading {
+    font-size: 40px;
+    font-weight: 800;
+    font-style: Bold;
+  }
+  .hero-subheading {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+  }
+  .sec-1 {
+    gap: 40;
+    padding: 40px 20px 40px 20px;
+  }
+  .sec-1-mainheading p {
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .sec-1-subheading p {
+    font-size: 16px;
+  }
+  .sec-1-subheading p span {
+    display: inline-block;
+  }
+  .sec-1-subheading span:last-child {
+    margin-top: 40px;
+  }
+  .line {
+    width: 400px;
+    height: 0px;
+  }
+  .sec-1-stats {
+ flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .stats {
+    flex: 0 0 45%;
+  }
+}

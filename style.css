@@ -14,8 +14,12 @@ nav {
   border-bottom: 1px solid rgba(65, 37, 103, 1);
   background: rgba(26, 11, 46, 1);
 }
-.logo img {
-  border: 1px solid rgba(0, 0, 0, 1);
+.logo {
+  
+  font-size: 40px;
+  font-weight: 700;
+  font-family: Inter;
+  font-style: Regular;
 }
 .link ul {
   list-style: none;

@@ -24,8 +24,16 @@
     gap: 24px;
   }
   .icon {
-    top: 155px;
-    right: 85px;
+    top: 17%;
+    right: 32%;
+  }
+  .center-img {
+    width: 23%;
+    height: 30%;
+  }
+  .circle-img {
+    width: 200px;
+    height: 200px;
   }
 
   .hero-heading {
@@ -119,7 +127,7 @@
   }
   .host {
     flex-direction: column;
-    gap: 16;
+    gap: 16px;
     padding: 24px;
     width: 400px;
   }
@@ -147,14 +155,16 @@
     gap: 14px;
   }
   footer {
-    background-size: cover;
-    background-position: center;
+    /* background: url(./assets/footer-bg.png); */
+    background-size: 100% 100%;
+    /* background-position: center; */
     object-fit: cover;
+    /* background-repeat: no-repeat; */
   }
   .copywright p {
     white-space: nowrap;
     overflow: hidden;
-    text-overflow: ellipsis; /* optional */
-    font-size: 14px; /* recommended */
+    text-overflow: ellipsis;
+    font-size: 14px;
   }
 }

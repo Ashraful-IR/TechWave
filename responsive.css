@@ -19,17 +19,15 @@
   .btn {
     display: none;
   }
-  /* .hero-sec {
-    background-size: contain
-  } */
   .hero-container {
     padding: 80px 20px;
     gap: 24px;
   }
   .icon {
-    top: 160px;
-    right: 65px;
+    top: 155px;
+    right: 85px;
   }
+
   .hero-heading {
     font-size: 40px;
     font-weight: 800;
@@ -149,9 +147,9 @@
     gap: 14px;
   }
   footer {
-    min-height: 280px;
     background-size: cover;
     background-position: center;
+    object-fit: cover;
   }
   .copywright p {
     white-space: nowrap;
